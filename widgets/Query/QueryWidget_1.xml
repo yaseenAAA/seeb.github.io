@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<configuration>
+    <layer>http://services7.arcgis.com/QGrheSuanL2Pponl/arcgis/rest/services/helth/FeatureServer/0</layer>
+    <query/>
+    <titlefield>Helthcare</titlefield>
+    <linkfield>Helthcare</linkfield>
+    <refreshrate/>
+    <zoomscale/>
+    <shareresults>false</shareresults>
+    <orderbyfields>Helthcare ASC</orderbyfields>
+    <fields all="false">
+        <field name="Helthcare" alias="Helthcare"/>
+        <field name="FID" alias="FID"/>
+        <field name="Pop" alias="Pop"/>
+        <field name="GlobalID" alias="GlobalID"/>
+    </fields>
+</configuration>

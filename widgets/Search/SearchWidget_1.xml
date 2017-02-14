@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<configuration>
+    
+    <zoomscale>50000</zoomscale>
+    
+    <shareresults>false</shareresults>
+    
+    <layers>
+        <layer>
+            <name>road</name>
+            <url>http://localhost:6080/arcgis/rest/services/ALDakhilya_governorate/MapServer/1</url>
+            <expression>HOUSEHOLDS like '[value]'</expression>
+            <textsearchlabel>Select by attribute</textsearchlabel>
+            <titlefield>HOUSEHOLDS</titlefield>
+            <fields>
+                <field name="HOUSEHOLDS" alias="HOUSEHOLDS"/>
+            </fields>
+            <orderbyfields>HOUSEHOLDS ASC</orderbyfields>
+        </layer>
+    </layers>
+</configuration>

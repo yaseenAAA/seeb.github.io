@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<configuration>
+    
+    <highlightcolor>0</highlightcolor>
+    
+    <labels>
+        
+        <layerselectionlabel>Select layer</layerselectionlabel>
+        
+        <drawtoolmenulabel>Select draw tool</drawtoolmenulabel>
+        
+    </labels>
+    
+    <layers>
+        <layer label="road">
+            
+            <labelfield/>
+            
+            <fields>
+                <field name=""/>
+                <field name="FID_region"/>
+            </fields>
+            <medias>
+                <media chartfields="FID_region" title="FID_region" type="columnchart"/>
+            </medias>
+        </layer>
+    </layers>
+</configuration>
